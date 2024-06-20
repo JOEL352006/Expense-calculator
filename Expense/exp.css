@@ -1,0 +1,137 @@
+/* Global body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Container styles */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    max-height: 100vh;
+    overflow-y: auto;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Form control styles */
+.form-control {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input, .form-control select {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Unordered list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background: #f4f4f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li span {
+    flex: 1;
+}
+
+/* Adjusted button size within list items */
+ul li button {
+    width: auto;
+    padding: 6px 10px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+/* Summary styles */
+.summary {
+    margin-top: 20px;
+}
+
+/* Filter controls styles */
+.filter-controls {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.filter-controls label, .filter-controls input, .filter-controls select {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Canvas styles */
+canvas {
+    max-height: 400px;
+    margin-top: 20px;
+}
+
+/* Additional styles for responsiveness (adjust as needed) */
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+}
